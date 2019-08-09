@@ -115,6 +115,7 @@ def turn(board)
 end
 
 def play(board)
+<<<<<<< HEAD
   until over?(board)
     turn (board)
   end
@@ -127,4 +128,12 @@ def play(board)
       puts "Congratulations O!"
     end
 
+=======
+  over?(board)
+  turn (board)
+  over?(board)
+  turn (board)
+  over?(board)
+  turn (board)
+>>>>>>> bbc5e3ab8716ab92e69504ff918a49d6fcb3412b
 end
